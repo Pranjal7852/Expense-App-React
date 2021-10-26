@@ -5,11 +5,11 @@ const Expense = () => {
         <div className="expense-container">
             <div className="income">
                 INCOME
-                <span className="income-amount">+$0.00</span>
+                <span className="income-amount">+₹0.00</span>
             </div>
             <div className="expense">
                 EXPENSE
-                <span className="expense-amount">-$0.00</span>
+                <span className="expense-amount">-₹0.00</span>
             </div>
         </div>
     )

@@ -7,14 +7,16 @@ import Form from './components/Form';
 import "./App.css"
 
 const App = () => {
-  
+   const calcTran = (data) => {
+    
+   } 
   
   return (
     <div className="container">
       <Header />
       <Balance />
       <Expense />
-      <Form />
+      <Form onaddingTran={calcTran} />
       
     </div>
 
